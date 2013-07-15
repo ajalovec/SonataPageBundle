@@ -42,7 +42,7 @@ With this strategy it is possible to handle sites like :
 
 
 This strategy required a dedicated ``Request`` object. So you need to alter the 
-front controller to use the one provided by the PageBundle. To to so, open files: 
+front controller to use the one provided by the PageBundle. To do so, open files: 
 app.php and app_dev.php and change the ``use`` statement to ::
 
     use Sonata\PageBundle\Request\SiteRequest as Request;
